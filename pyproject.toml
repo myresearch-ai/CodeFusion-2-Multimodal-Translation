@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "codefusion-2-multimodal-translation"
+version = "0.1.0"
+description = ""
+authors = ["Ed Mwanza"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+python-dotenv = "^1.0.1"
+tqdm = "^4.66.4"
+wikipedia = "^1.4.0"
+langchain-community = "^0.2.5"
+openai = "^1.35.1"
+serpapi = "^0.1.5"
+google-search-results = "^2.4.2"
+black = "^24.4.2"
+numexpr = "^2.10.0"
+setuptools = "^70.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
